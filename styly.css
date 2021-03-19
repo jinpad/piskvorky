@@ -22,15 +22,15 @@ body {
   flex-direction: column;
   background-color: #283e50;
   width: 400px;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
   color: #ffffff;
   text-align: center;
   margin: 40px auto;
 }
 
 img {
-  width: 400px;
-  border-radius: 10px 10px 0 0;
+  width: inherit;
+  border-radius: inherit;
 }
 
 .text {
@@ -64,7 +64,6 @@ a {
 .button2 {
   background-color: #0197f6;
   border-top: 2px solid #283e50;
-  border-radius: 0 0 10px 10px;
 }
 
 .button2:hover {
