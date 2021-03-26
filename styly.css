@@ -17,7 +17,8 @@ body {
   background-repeat: no-repeat;
 }
 
-.content {
+.content,
+.obsah {
   display: flex;
   flex-direction: column;
   background-color: #283e50;
@@ -26,6 +27,13 @@ body {
   color: #ffffff;
   text-align: center;
   margin: 40px auto;
+}
+
+.obsah {
+  width: 800px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: unset;
 }
 
 img {
@@ -42,6 +50,7 @@ img {
 h1 {
   font-size: 60px;
   font-family: 'Lobster', cursive;
+  text-align: center;
 }
 
 a {
@@ -68,4 +77,34 @@ a {
 
 .button2:hover {
   background-color: #0090e9;
+}
+
+.description {
+  padding: 20px;
+}
+
+.description li {
+  margin-top: 15px;
+}
+
+.circle,
+.cross {
+  filter: invert(100%);
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  text-align: center;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.pictures img {
+  max-width: 100%;
+}
+
+.pictures__item {
+  max-width: 40%;
 }
