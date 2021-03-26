@@ -26,7 +26,7 @@ body {
   border-radius: 10px 10px 0 0;
   color: #ffffff;
   text-align: center;
-  margin: 40px auto;
+  margin: 40px auto 250px auto;
 }
 
 .obsah {
@@ -107,4 +107,27 @@ a {
 
 .pictures__item {
   max-width: 40%;
+}
+
+@media (max-width: 540px) {
+  .obsah {
+    width: 90%;
+  }
+  .pictures__item {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 541px) and (max-width: 850px) {
+  .obsah {
+    width: 90%;
+  }
+
+  .pictures__item {
+    max-width: 38%;
+  }
+
+  .pictures {
+    justify-content: center;
+  }
 }
