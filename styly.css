@@ -51,6 +51,7 @@ h1 {
   font-size: 60px;
   font-family: 'Lobster', cursive;
   text-align: center;
+  color: white;
 }
 
 a {
@@ -90,6 +91,7 @@ a {
 .circle,
 .cross {
   filter: invert(100%);
+  margin-bottom: -4px;
 }
 
 .pictures {
@@ -107,6 +109,66 @@ a {
 
 .pictures__item {
   max-width: 40%;
+}
+
+.play {
+  max-width: 80vmin;
+  margin: 2rem auto 0rem auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.menu__buttons {
+  display: flex;
+}
+
+.menu__buttons a {
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.menu__buttons > .button2 {
+  border-top: none;
+}
+
+.menu__item {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.game {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  height: 80vmin;
+  background: rgb(229, 182, 210);
+  background: linear-gradient(
+    10deg,
+    rgba(229, 182, 210, 1) 0%,
+    rgba(178, 148, 196, 1) 100%
+  );
+  border: black solid 1px;
+}
+
+.game button {
+  border: black solid 1px;
+  background: none;
+  width: 10%;
+}
+
+.game button:hover,
+.game button:focus {
+  background-color: rgb(216, 182, 216);
+  outline: none;
 }
 
 @media (max-width: 540px) {
