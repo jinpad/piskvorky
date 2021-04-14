@@ -153,8 +153,8 @@ a {
   background: rgb(229, 182, 210);
   background: linear-gradient(
     10deg,
-    rgba(229, 182, 210, 1) 0%,
-    rgba(178, 148, 196, 1) 100%
+    rgb(235, 190, 217) 0%,
+    rgb(209, 182, 224) 100%
   );
   border: black solid 1px;
 }
@@ -167,7 +167,7 @@ a {
 
 .game button:hover,
 .game button:focus {
-  background-color: rgb(216, 182, 216);
+  background-color: rgb(236, 209, 236);
   outline: none;
 }
 
