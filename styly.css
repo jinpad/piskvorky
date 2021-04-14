@@ -161,7 +161,7 @@ a {
 
 .game button {
   border: black solid 1px;
-  background: none;
+  background-color: rgb(229, 182, 210);
   width: 10%;
 }
 
@@ -196,7 +196,7 @@ a {
   background-image: url('circle.svg');
   background-repeat: no-repeat;
   background-origin: content-box;
-  background-position: 2vmin;
+  background-position: 1.5vmin;
   background-size: 60%;
 }
 
@@ -204,7 +204,7 @@ a {
   background-image: url('cross.svg');
   background-repeat: no-repeat;
   background-origin: content-box;
-  background-position: 2vmin;
+  background-position: 1.5vmin;
   background-size: 60%;
 }
 
