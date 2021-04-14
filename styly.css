@@ -171,6 +171,43 @@ a {
   outline: none;
 }
 
+/* styly pro javascript */
+.circle_plays {
+  filter: invert(100%);
+  margin-bottom: -4px;
+}
+
+.cross_not_plays {
+  visibility: hidden;
+}
+
+.circle_not_plays {
+  visibility: hidden;
+}
+
+.cross_plays {
+  visibility: visible;
+  filter: invert(100%);
+  margin-bottom: -4px;
+  margin-left: -1.5rem;
+}
+
+.fill_circle {
+  background-image: url('circle.svg');
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-position: 2vmin;
+  background-size: 60%;
+}
+
+.fill_cross {
+  background-image: url('cross.svg');
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-position: 2vmin;
+  background-size: 60%;
+}
+
 @media (max-width: 540px) {
   .obsah {
     width: 90%;
