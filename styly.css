@@ -161,14 +161,13 @@ a {
 
 .game button {
   border: black solid 1px;
-  background-color: rgb(229, 182, 210);
+  background-color: rgb(209, 182, 224);
   width: 10%;
 }
 
 .game button:hover,
 .game button:focus {
   background-color: rgb(236, 209, 236);
-  outline: none;
 }
 
 /* styly pro javascript */
